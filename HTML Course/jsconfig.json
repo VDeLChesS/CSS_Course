@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ES2020",
+    "jsx": "react",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "pretty": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noEmitOnError": false,
+    "allowArbitraryExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUmdGlobalAccess": true,
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable",
+      "ScriptHost",
+      "ESNext.AsyncIterable"
+    ],
+    "listEmittedFiles": true,
+    "allowUnusedLabels": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"],
+  "compileOnSave": true,
+  "files": [
+    "scripts/script.js",
+    "scripts/script2.js",
+    "styles/style.css",
+    "styles/style2.css"
+  ],
+  "buildOptions": {
+    "outDir": "dist",
+    "minify": true,
+    "bundle": true,
+    "sourcemap": true,
+    "metafile": true,
+    "target": "es2020",
+    "entrypoints": [
+      "scripts/script.js",
+      "scripts/script2.js",
+      "styles/style.css",
+      "styles/style2.css"
+    ]
+  }
+}

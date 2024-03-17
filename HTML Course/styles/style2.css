@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "lucida console", "Courier New", monospace;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	background-color: #5999ad;
+	color: rgba(63, 1, 1, 0.845);
+}
+
+main {
+	margin: 1rem;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+span {
+	color: rgb(134, 9, 9);
+}
+
+div {
+	padding: 2rem;
+	margin: 0;
+	border-radius: 1rem;
+	background-image: linear-gradient(
+		90deg,
+		#22042cec,
+		#2a0637c3,
+		#641980d6,
+		#8c3da8d6,
+		#a559c1be,
+		#d297e8d6
+	);
+	box-shadow: 10px 10px 10px rgba(36, 2, 2, 0.833);
+	color: #ffffffd6;
+	text-align: center;
+}

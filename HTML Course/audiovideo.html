@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My HTML5 Page</title>
+    <link rel="stylesheet" href="styles/style3.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Audio and Video Embedding in HTML</h1>
+    </header>
+    <main>
+      <section class="container">
+        <div>
+          <h2>Audio Example</h2>
+          <audio controls>
+            <source src="audio/track1.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+
+          <h2>Video Example</h2>
+          <video width="500" height="300" controls autoplay muted loop>
+            <source src="media/media-video1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div>
+          <h2>Audio Example 2</h2>
+          <audio controls>
+            <source src="audio/track2.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+
+          <h2>Video Example 2</h2>
+          <video width="500" height="300" controls autoplay muted loop>
+            <source src="media/media-video2.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+      <header>
+        <h1>Embed Examples</h1>
+        <p>
+          The &lt;iframe&gt; element is used to display a separate document.
+          Here's a few examples
+        </p>
+      </header>
+      <section class="container">
+        <div>
+          <h2>Google Maps</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.0000000000005!2d-122.0840006846785!3d37.421999979825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808a7f3e3b3d%3A0x7b3e3e3e3e3e3e3e!2sGoogleplex!5e0!3m2!1sen!2sus!4v1635730000000!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div>
+          <h2>YouTube Video</h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/3JZ_D3ELwOQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+      </section>
+      <section class="container">
+        <div>
+          <h2>Twitter</h2>
+          <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">The new 
+              <a href="https://twitter.com/hashtag/HTML?src=hash&amp;ref_src=twsrc%5Etfw">#HTML</a>
+              <a href="https://twitter.com/hashtag/CSS?src=hash&amp;ref_src=twsrc%5Etfw">#CSS</a>
+              <a href="https://twitter.com/hashtag/JavaScript?src=hash&amp;ref_src=twsrc%5Etfw">#JavaScript</a>
+              course is now available on 
+              <a href="https://twitter.com/Codecademy?ref_src=twsrc%5Etfw">@Codecademy</a>
+              <a href="https://t.co/3n3J3G3s3G">https://t.co/3n3J3G3s3G</a>
+            </p>
+            &mdash; Codecademy (@Codecademy) <a href="https://twitter.com/Codecademy/status/1448320000000?ref_src=twsrc%5Etfw">October 31, 2021</a>
+          </blockquote>
+        </div>
+        <div>
+          <h2>Twitter</h2>
+          <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">Long overdue, but probably time to mention that I&#39;d created a second online  course in 2020, this one is a projects based course that is great for newcomers to front-end web development, check it out on Udemy!
+              <a href="https://t.co/eUxA2901fp">https://t.co/eUxA2901fp</a>
+            </p>&mdash; Jacinto Wong (@Mynameisjacinto) 
+            <a href="https://twitter.com/Mynameisjacinto/status/1368328677096849408?ref_src=twsrc%5Etfw">March 6, 2021</a>
+          </blockquote> 
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
