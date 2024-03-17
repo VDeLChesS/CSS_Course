@@ -1,0 +1,27 @@
+.text-container {
+    width: 50ch; /* Controls the line length to stay within 50-75 characters */
+    margin: 0 auto; /* Centers the text container */
+    font-size: 16px; /* Example font size, can be changed */
+    line-height: 1.5em; /* Sets the line spacing 1.5x the font size */
+    letter-spacing: 0.05em; /* Adjusts the space between characters for better readability */
+    background-color: whitesmoke; /* Optional: Sets a light background color for the container */
+    padding: 5px 20px; /* Optional: Adds some padding inside the container */
+    border-radius: 10px;
+    text-align: left;
+}
+  
+h1 {
+    font-family: helvetica, sans-serif;
+    font-size: 2em;
+    text-decoration: underline wavy hotpink;
+    text-transform: uppercase;
+    font-style: italic;
+}
+  
+.vertical-text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 10px;
+}
+

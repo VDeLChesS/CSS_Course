@@ -1,0 +1,49 @@
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	background-image: linear-gradient(
+			rgba(51, 51, 77, 0.185),
+			rgba(55, 55, 113, 0.5),
+			rgba(50, 50, 104, 0.5),
+			rgba(14, 14, 181, 0.5),
+			rgba(7, 7, 99, 0.5),
+			rgba(110, 110, 206, 0.5),
+			rgba(80, 80, 144, 0.5)
+		),
+		url("https://images.unsplash.com/photo-1557683316-973673baf926");
+	padding: 2rem;
+	line-height: 1.6;
+}
+
+div,
+p,
+a,
+ul {
+	border: 1px solid #043618;
+	margin: 15px 0;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+a {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+}
+
+.intro {
+	background-color: #eaf7fe3e;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.name1.name2 {
+	background-color: #710606;
+	color: white;
+}
+
+.name1 .name2 {
+	background-color: #cdb51b;
+	color: #350808;
+}

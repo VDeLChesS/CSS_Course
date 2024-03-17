@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Variable Playground</title>
+	<link href="playground2-style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+		<!-- Text -->
+		<div class="box color">Colored text</div>
+		<div class="box font-size">Font size</div>
+		<div class="box font-family">Font family</div>
+		<div class="box text-shadow">Text shadow</div>
+		<div class="box text-align">Text align</div>
+		<div class="box line-height">Line height</div>
+		<div class="box letter-spacing">Letter spacing</div>
+		<!-- Container (Box Model)-->
+		<div class="box border">Border</div>
+		<div class="box margin">Margin</div><br><br>
+		<div class="box padding">Padding</div><br><br>
+		<div class="box width">Width</div><br><br>
+		<div class="box height">Height</div><br><br>
+		<!-- Size & Position -->
+		<div class="box width-height">Width & Height</div><br>
+		<div class="box position">Relative position</div><br>
+		<!--Transition-->
+		<div class="box transition">Transition</div><br>
+		<div class="box transform">Transform</div><br>
+	</div>
+    <div id="example1">
+        This is a DIV (styled by element selector).
+    </div>
+    <div class="highlight" id="example2">
+        This is a DIV with a class of "highlight". The class tries to change its color to red.
+    </div>
+
+    <div id="special1" class="highlight">
+        This is a DIV with an ID of "special1" and a class of "highlight". The ID's styling is more specific, so the color will be green, not red.
+    </div>
+
+    <div id="special2" class="highlight">
+        This is a DIV with inline styling, an ID of "special2", and a class of "highlight". The inline style is the most
+    </div>
+
+</body>
+</html>

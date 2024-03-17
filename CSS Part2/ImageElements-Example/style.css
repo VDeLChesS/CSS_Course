@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-bottom: 20px;
+    margin: auto;
+    line-height: 1.6;
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: darkcyan;
+    color: white;
+  }
+  
+  h2 {
+    color: darkcyan;
+    padding: 0 20px;
+  }
+  
+  p {
+    padding: 0 20px;
+    position: relative;
+    top: -10px;
+  }
+  
+  img,
+  svg,
+  picture {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .first-img {
+    padding: 5px;
+    border: 2px dashed black;
+  }
+  
+  svg {
+    margin: 20px auto;
+  }
+  

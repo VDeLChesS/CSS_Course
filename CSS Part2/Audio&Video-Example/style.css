@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: limegreen;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    color: limegreen;
+  }
+  
+  audio,
+  video {
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  video {
+    object-fit: cover;
+  }
+  
